@@ -306,6 +306,7 @@ Operatory porównania, których możemy używać w warunku `if`:
 Dodatkowo warunki możemy łączyć słowami `or` i `and` lub poprzedzić słowem `not`.
 
 > Ćwiczenie 2 (for): Zsumuj liczby 0..100.
+
 > Ćwiczenie 3 (for + if): Zsumuj te sposród liczb 0..100, które są podzielne przez 5.
 
 

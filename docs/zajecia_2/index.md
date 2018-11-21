@@ -254,13 +254,15 @@ i kodowanie, nadaje się do używania w `with`
 1. Zacommituj i wypushuj plik `zajecia_1/praca_domowa.py` taki, żeby testy
 w `zajecia_1/test_praca_domowa.py` przechodziły.
 
-2. Współczynnk bogactwa leksykalnego tekstu to stosunek liczby różnych słów
-w tekście do łącznej liczby słów w tekście.
-W pliku `zajecia_2/praca_domowa.py` napisz funkcję `oblicz_bogactwo(sciezka_pliku)`,
-która policzy współczynnik bogactwa leksykalnego dla tekstu zawartego w pliku
-o podanej w parametrze nazwie. Przetestuj ją na pierwszy tomie Lalki
+2. ~~Współczynnk bogactwa leksykalnego tekstu to stosunek liczby różnych słów~~
+~~w tekście do łącznej liczby słów w tekście.~~
+~~W pliku `zajecia_2/praca_domowa.py` napisz funkcję `oblicz_bogactwo(sciezka_pliku)`,~~
+~~która policzy współczynnik bogactwa leksykalnego dla tekstu zawartego w pliku~~
+~~o podanej w parametrze nazwie. Przetestuj ją na pierwszy tomie Lalki~~
 
 3. W pliku `zajecia_2/praca_domowa.py` napisz funkcję `wieloplik(katalog, liczba)`,
 który w (istniejącym) katalogu założy "liczba" plików (=tyle, jaka liczba będzie
 w drugim parametrze) o nazwach `1.txt`, `2.txt`, `3.txt` etc. i do każdego
 z nim wpisze napisz "To jest plik nr `<tutaj numer>`".
+
+Pracę domową proszę wypushować do swojego repozytorium do 23:59 2018-12-02.

@@ -1,1 +1,4 @@
+gems:
+  - jekyll-last-modified-at
+
 theme: jekyll-theme-cayman

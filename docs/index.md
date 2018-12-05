@@ -21,3 +21,5 @@ Zajęcia będą odbywać się w sali warsztatowej LaCH UW (ul. S. Banacha 2C, bu
 ### Ciekawe źródła
 * [Pro Git](https://git-scm.com/book/en/v2)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+
+Ostatnia zmiana: {{ site.time | date: '%Y-%m-%d %H:%M:%S' }} UTC

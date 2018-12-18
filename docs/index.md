@@ -8,7 +8,7 @@ Zajęcia będą odbywać się w sali warsztatowej LaCH UW (ul. S. Banacha 2C, bu
 1. [Podstawy programowania: 7 listopada (środa) 16.30-19.30](./zajecia_1/index.md)
 2. [Git i GitHub w kodowaniu: 21 listopada (środa) 16.30-19.30](./zajecia_2/index.md)
 3. [Automatyczna obróbka plików tekstowych: 5 grudnia (środa) 16.30-19.30](./zajecia_3/index.md)
-4. [Programowy dostęp do zasobów internetowych: 19 grudnia (środa) 16.30-19.30]()
+4. [Programowy dostęp do zasobów internetowych: 19 grudnia (środa) 16.30-19.30](./zajecia_4/index.md)
 5. [Wizualizacja danych: 9 stycznia (środa) 16.30-19.30]()
 
 ### Pożyteczne linki

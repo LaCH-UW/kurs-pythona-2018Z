@@ -224,8 +224,9 @@ w materiałach: `kolka_rolnicze.json`
 z pliku ../dane/kolka_rolnicze.json; użyj biblioteki json
 
 > Ćwiczenie 7: Znajdź klucz zawierający datę rejestracji kółka
-Weźmy przykładową datę rejestacji: '2017-12-12'
-Sortowanie jest w tym przypadku łatwe - data jest w formacie ISO 8601, w której porządek leksykograficzny odpowiada porządkowi chronologicznemu.
+
+> Weźmy przykładową datę rejestacji: '2017-12-12'
+> Sortowanie jest w tym przypadku łatwe - data jest w formacie ISO 8601, w której porządek leksykograficzny odpowiada porządkowi chronologicznemu.
 
 Potrzebujemy teraz tylko sortowania -- służy to tego funkcja sorted, która zwraca elementy w posortowanej kolejności.
 Prosty przypadek:

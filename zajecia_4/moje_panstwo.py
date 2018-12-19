@@ -4,6 +4,36 @@ import time
 import requests
 
 
+r = requests.get('https://api-v3.mojepanstwo.pl/dane/krs_formy_prawne.json')
+json_data = r.json()
+
+# co tu w ogóle jest?
+print(json_data.keys())
+
+# liczba elementów
+print(json_data['Count'])
+# najważniejszy klucz -- lista danych!
+print(json_data['Dataobject'])
+
+# ponieważ to API, możemy się spodziewać, że wszystkie elementy na liście mają taką samą
+#  strukturę -- i możemy zbadać "pierwszy z brzegu" obiekt
+first = json_data['Dataobject'][0]
+print(first)
+print(first.keys())
+
+print(first['id'])
+print(first['data'])
+print(first['data'].keys())
+print(first['data']['krs_formy_prawne.nazwa'])
+
+# i wiemy, gdzie szukać nazwy; zatem nasz docelowy skrypt to:
+for i in json_data['Dataobject']:
+    if i['data']['krs_formy_prawne.nazwa'] == 'KÓŁKO ROLNICZE':
+        print(i['id'], i['data']['krs_formy_prawne.nazwa'])
+        break
+
+
+
 id_kolka_rolniczego = 5
 lista_kolek_rolniczych_po_500 = 'https://api-v3.mojepanstwo.pl/dane/krs_podmioty.json?conditions[krs_podmioty.forma_prawna_id]={}&limit=500'.format(id_kolka_rolniczego)
 

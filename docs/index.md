@@ -23,3 +23,5 @@ Zajęcia będą odbywać się w sali warsztatowej LaCH UW (ul. S. Banacha 2C, bu
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
 Ostatnia zmiana: {{ site.time | date: '%Y-%m-%d %H:%M:%S' }} UTC
+
+Autor/prowadzący: Piotr Kasprzyk <p.kasprzyk@uw.edu.pl>

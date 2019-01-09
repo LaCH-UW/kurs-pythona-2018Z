@@ -14,3 +14,5 @@ plt.xlabel("Próbki")
 plt.ylabel("Liczba wystąpień")
 
 plt.show()
+# wykres możemy też zapisać do pliku (format jest autorozpoznawany po rozszerzeniu)
+plt.savefig('out.png')
